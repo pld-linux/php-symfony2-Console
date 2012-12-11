@@ -17,7 +17,7 @@ BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.610
 Requires:	php(core) >= %{php_min_version}
 Requires:	php-channel(pear.symfony.com)
-Requires:	php-pear
+Requires:	php-pear >= 1.3.10
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
