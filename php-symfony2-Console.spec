@@ -1,5 +1,6 @@
 %define		status		stable
 %define		pearname	Console
+%define		php_min_version 5.3.3
 %include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - Symfony2 Console Component
 Name:		php-symfony2-Console
@@ -14,6 +15,7 @@ BuildRequires:	php-channel(pear.symfony.com)
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.610
+Requires:	php(core) >= %{php_min_version}
 Requires:	php-channel(pear.symfony.com)
 Requires:	php-pear
 BuildArch:	noarch
