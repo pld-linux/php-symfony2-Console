@@ -9,7 +9,7 @@ License:	MIT
 Group:		Development/Languages/PHP
 Source0:	http://pear.symfony.com/get/%{pearname}-%{version}.tgz
 # Source0-md5:	2e07b37e61fa846b6c3c63df37883343
-URL:		http://symfony.com/doc/current/components/console/index.html
+URL:		http://symfony.com/doc/2.4/components/console/index.html
 BuildRequires:	php-channel(pear.symfony.com)
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
