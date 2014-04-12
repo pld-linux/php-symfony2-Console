@@ -22,6 +22,7 @@ Requires:	php(pcre)
 Requires:	php(spl)
 Requires:	php-channel(pear.symfony.com)
 Requires:	php-pear >= 1.3.10
+Suggests:	php(posix)
 Suggests:	php-symfony2-EventDispatcher
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
