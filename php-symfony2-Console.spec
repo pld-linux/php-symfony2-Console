@@ -3,12 +3,12 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	Symfony2 Console Component
 Name:		php-symfony2-Console
-Version:	2.4.3
+Version:	2.4.4
 Release:	1
 License:	MIT
 Group:		Development/Languages/PHP
 Source0:	http://pear.symfony.com/get/%{pearname}-%{version}.tgz
-# Source0-md5:	2e07b37e61fa846b6c3c63df37883343
+# Source0-md5:	394b8ceced25a98d569ec96088eef9f1
 URL:		http://symfony.com/doc/2.4/components/console/index.html
 BuildRequires:	php-channel(pear.symfony.com)
 BuildRequires:	php-pear-PEAR
