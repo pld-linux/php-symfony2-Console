@@ -39,7 +39,9 @@ phpab -n -e '*/Tests/*' -o autoload.php .
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{php_pear_dir}/Symfony/Component/%{pearname}
 cp -a *.php */ $RPM_BUILD_ROOT%{php_pear_dir}/Symfony/Component/%{pearname}
-rm -rf $RPM_BUILD_ROOT%{php_pear_dir}/Symfony/Component/%{pearname}/Tests
+rm -r $RPM_BUILD_ROOT%{php_pear_dir}/Symfony/Component/%{pearname}/Tests
+# bad os
+rm $RPM_BUILD_ROOT%{php_pear_dir}/Symfony/Component/%{pearname}/Resources/bin/hiddeninput.exe
 
 %clean
 rm -rf $RPM_BUILD_ROOT
