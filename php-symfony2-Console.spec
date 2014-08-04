@@ -7,7 +7,7 @@ Version:	2.4.8
 Release:	1
 License:	MIT
 Group:		Development/Languages/PHP
-Source0:	https://github.com/symfony/Console/archive/v%{version}/%{pearname}-%{version}.tar.gz
+Source0:	https://github.com/symfony/%{pearname}/archive/v%{version}/%{pearname}-%{version}.tar.gz
 # Source0-md5:	334a06f0e45ebcf93e7265d08889dc3e
 URL:		http://symfony.com/doc/2.4/components/console/index.html
 BuildRequires:	phpab
