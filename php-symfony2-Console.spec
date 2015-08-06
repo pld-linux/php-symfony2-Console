@@ -58,5 +58,8 @@ rm -rf $RPM_BUILD_ROOT
 %{php_pear_dir}/Symfony/Component/Console/Formatter
 %{php_pear_dir}/Symfony/Component/Console/Helper
 %{php_pear_dir}/Symfony/Component/Console/Input
+%{php_pear_dir}/Symfony/Component/Console/Logger
 %{php_pear_dir}/Symfony/Component/Console/Output
+%{php_pear_dir}/Symfony/Component/Console/Question
+%{php_pear_dir}/Symfony/Component/Console/Style
 %{php_pear_dir}/Symfony/Component/Console/Tester
