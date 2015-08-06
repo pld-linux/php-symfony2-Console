@@ -1,5 +1,5 @@
 %define		package	Console
-%define		php_min_version 5.3.3
+%define		php_min_version 5.3.9
 %include	/usr/lib/rpm/macros.php
 Summary:	Symfony2 Console Component
 Name:		php-symfony2-Console
