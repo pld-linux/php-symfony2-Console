@@ -4,7 +4,7 @@
 Summary:	Symfony2 Console Component
 Name:		php-symfony2-Console
 Version:	2.7.3
-Release:	2
+Release:	3
 License:	MIT
 Group:		Development/Languages/PHP
 Source0:	https://github.com/symfony/%{package}/archive/v%{version}/%{package}-%{version}.tar.gz
@@ -19,7 +19,7 @@ Requires:	php(json)
 Requires:	php(mbstring)
 Requires:	php(pcre)
 Requires:	php(spl)
-Requires:	php-pear >= 1.3.10
+Requires:	php-pear >= 4:1.3.10
 Suggests:	php(posix)
 Suggests:	php-psr-Log
 Suggests:	php-symfony2-EventDispatcher
