@@ -3,12 +3,12 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	Symfony2 Console Component
 Name:		php-symfony2-Console
-Version:	2.7.5
+Version:	2.7.7
 Release:	3
 License:	MIT
 Group:		Development/Languages/PHP
 Source0:	https://github.com/symfony/%{package}/archive/v%{version}/%{package}-%{version}.tar.gz
-# Source0-md5:	5aae04448cc1f018f52bea94b863484d
+# Source0-md5:	cf0d9707c54d69367748d6a140b1e3cc
 URL:		http://symfony.com/doc/2.7/components/console/index.html
 BuildRequires:	phpab
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
@@ -35,7 +35,7 @@ command line interfaces.
 %setup -q -n console-%{version}
 
 %build
-phpab -n -e '*/Tests/*' -o autoloader.php .
+phpab -n -e '*/Tests/*' -o autoload.php .
 
 %install
 rm -rf $RPM_BUILD_ROOT
