@@ -39,27 +39,27 @@ phpab -n -e '*/Tests/*' -o autoload.php .
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{php_pear_dir}/Symfony/Component/%{package}
-cp -a *.php */ $RPM_BUILD_ROOT%{php_pear_dir}/Symfony/Component/%{package}
-rm -r $RPM_BUILD_ROOT%{php_pear_dir}/Symfony/Component/%{package}/Tests
+install -d $RPM_BUILD_ROOT%{php_data_dir}/Symfony/Component/%{package}
+cp -a *.php */ $RPM_BUILD_ROOT%{php_data_dir}/Symfony/Component/%{package}
+rm -r $RPM_BUILD_ROOT%{php_data_dir}/Symfony/Component/%{package}/Tests
 # bad os
-rm $RPM_BUILD_ROOT%{php_pear_dir}/Symfony/Component/%{package}/Resources/bin/hiddeninput.exe
+rm $RPM_BUILD_ROOT%{php_data_dir}/Symfony/Component/%{package}/Resources/bin/hiddeninput.exe
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc CHANGELOG.md LICENSE README.md
-%dir %{php_pear_dir}/Symfony/Component/Console
-%{php_pear_dir}/Symfony/Component/Console/*.php
-%{php_pear_dir}/Symfony/Component/Console/Command
-%{php_pear_dir}/Symfony/Component/Console/Descriptor
-%{php_pear_dir}/Symfony/Component/Console/Event
-%{php_pear_dir}/Symfony/Component/Console/Formatter
-%{php_pear_dir}/Symfony/Component/Console/Helper
-%{php_pear_dir}/Symfony/Component/Console/Input
-%{php_pear_dir}/Symfony/Component/Console/Logger
-%{php_pear_dir}/Symfony/Component/Console/Output
-%{php_pear_dir}/Symfony/Component/Console/Question
-%{php_pear_dir}/Symfony/Component/Console/Style
-%{php_pear_dir}/Symfony/Component/Console/Tester
+%dir %{php_data_dir}/Symfony/Component/Console
+%{php_data_dir}/Symfony/Component/Console/*.php
+%{php_data_dir}/Symfony/Component/Console/Command
+%{php_data_dir}/Symfony/Component/Console/Descriptor
+%{php_data_dir}/Symfony/Component/Console/Event
+%{php_data_dir}/Symfony/Component/Console/Formatter
+%{php_data_dir}/Symfony/Component/Console/Helper
+%{php_data_dir}/Symfony/Component/Console/Input
+%{php_data_dir}/Symfony/Component/Console/Logger
+%{php_data_dir}/Symfony/Component/Console/Output
+%{php_data_dir}/Symfony/Component/Console/Question
+%{php_data_dir}/Symfony/Component/Console/Style
+%{php_data_dir}/Symfony/Component/Console/Tester
