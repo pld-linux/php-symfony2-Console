@@ -18,6 +18,7 @@ Requires:	php(json)
 Requires:	php(mbstring)
 Requires:	php(pcre)
 Requires:	php(spl)
+Requires:	php-dirs >= 1.6
 Suggests:	php(posix)
 Suggests:	php-psr-Log
 Suggests:	php-symfony2-EventDispatcher
