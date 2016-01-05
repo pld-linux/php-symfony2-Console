@@ -3,12 +3,12 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	Symfony2 Console Component
 Name:		php-symfony2-Console
-Version:	2.7.7
-Release:	3
+Version:	2.7.8
+Release:	1
 License:	MIT
 Group:		Development/Languages/PHP
 Source0:	https://github.com/symfony/%{package}/archive/v%{version}/%{package}-%{version}.tar.gz
-# Source0-md5:	cf0d9707c54d69367748d6a140b1e3cc
+# Source0-md5:	32159eb62c3c175141adfc9c2be18478
 URL:		http://symfony.com/doc/2.7/components/console/index.html
 BuildRequires:	phpab
 BuildRequires:	rpmbuild(macros) >= 1.610
